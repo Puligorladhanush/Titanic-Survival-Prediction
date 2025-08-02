@@ -93,7 +93,7 @@ XGBoost 81%
 🔹 1️⃣ Clone Repository : 
 
 
-git clone https://github.com/your-username/Titanic-Survival-Prediction.git  
+git clone https://github.com/Puligorladhanush/Titanic-Survival-Prediction.git  
 cd Titanic-Survival-Prediction    
 
 🔹 2️⃣ Install Dependencies :  
