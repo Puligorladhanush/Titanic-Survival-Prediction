@@ -12,13 +12,12 @@ preprocessing, feature engineering, model building, and evaluation.
 Repository Structure : 
 
 
-Titanic-Survival-Prediction 
-│
+Titanic-Survival-Prediction   
+
 ├── data/ # Datasets (train.csv, test.csv)    
 ├── notebooks/ # Jupyter/Colab notebooks with code  
 ├── src/ # Source code files  
-├── images/ # Plots & visualizations  
-├── models/ # Saved trained models (optional)    
+├── images/ # Plots & visualizations     
 ├── README.md # Project documentation  
 └── requirements.txt # Python dependencies  
 
@@ -36,22 +35,22 @@ Output: Survival (0 = No, 1 = Yes)
 
 The dataset is taken from Kaggle Titanic - Machine Learning from Disaster.  
 
- Features :  
 
 
-Feature Description :  
+Feature Description :    
 
-PassengerId Unique ID of a passenger  
-Survived Survival (0 = No, 1 = Yes)  
-Pclass Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd)  
-Name Passenger name     
-Sex Gender Age Age in  years  
-SibSp Number of siblings/spouses aboard  
-Parch Number of parents/children aboard  
-Ticket Ticket number  
-Fare Passenger fare  
-Cabin Cabin number  
-Embarked Port of Embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)  
+PassengerId-- Unique ID of a passenger    
+Survived --Survival (0 = No, 1 = Yes)    
+Pclass --Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd)            
+Name --Passenger name       
+Sex-- Gender  
+Age --Age in  years     
+SibSp-- Number of siblings/spouses aboard    
+Parch --Number of parents/children aboard    
+Ticket-- Ticket number      
+Fare-- Passenger fare    
+Cabin-- Cabin number    
+Embarked --Port of Embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)    
 
  Technologies Used : 
 
@@ -75,11 +74,8 @@ XGBoost / Random Forest / Logistic Regression – Classification models
 
  Visualizations :  
 
-
 Survival Rate by Gender    
 Survival Rate by Class  
-
-Machine Learning Models Used : 
 
 
 Model Accuracy (CV Score) :  
@@ -119,6 +115,6 @@ Key Factors for Survival: Gender (female more likely), Passenger class (1st clas
  Contact :  
 
 
- Dhanush Puligorla  
+ Name:Dhanush Puligorla  
  Email: dhanushpuligorla@gmail.com  
  GitHub: Puligorladhanush  
